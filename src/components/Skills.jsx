@@ -1,3 +1,4 @@
+import React from 'react';
 const Skills = () => (
   <section className="container">
     <h2>Skills</h2>

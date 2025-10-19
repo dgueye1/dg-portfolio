@@ -1,3 +1,4 @@
+import React from 'react';
 const Resume = () => (
   <section className="container">
     <h2>Resume</h2>

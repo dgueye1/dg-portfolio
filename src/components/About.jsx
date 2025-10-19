@@ -1,3 +1,4 @@
+import React from 'react';
 const About = () => (
   <section className="container">
     <h2>About Me</h2>
