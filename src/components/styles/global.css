@@ -31,7 +31,7 @@ body {
   padding-left: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .socials {
@@ -48,7 +48,7 @@ li {
   height: fit-content;
   padding: 5px;
   border-radius: 30px;
-  width: 123px;
+  width: 135px;
   white-space: nowrap;
 }
 
@@ -60,4 +60,54 @@ li {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 4px;
+}
+
+p.frontend {
+  background: lightskyblue;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: fit-content; 
+  margin: auto;
+  margin-bottom: 9px;
+}
+
+p.specialize {
+  background: lightskyblue;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: auto; 
+  padding-left: 16px; 
+}
+
+p.email {
+  background: lightskyblue;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.email a {
+  color: white;
+}
+
+a.linkedin {
+  color: white;
+}
+
+a.github {
+  color: white;
+}
+
+button {
+  background: var(--accent-color);
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
