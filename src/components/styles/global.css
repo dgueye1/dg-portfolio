@@ -41,6 +41,17 @@ body {
   padding: 0;
 }
 
+li {
+  background: lightskyblue;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 30px;
+  width: 123px;
+  white-space: nowrap;
+}
+
 .download-btn {
   display: inline-block;
   margin-top: 1rem;
